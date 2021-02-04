@@ -22,4 +22,14 @@ border: 3px solid  #1F212D;
     
 }
 
+.partner-img{
+    filter: grayscale(100);
+    transition: all .3s ease;
+}
+
+.partner-img:hover{
+    filter: none;
+    transform: scale(1.1);
+}
+
   
