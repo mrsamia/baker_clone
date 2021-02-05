@@ -2,10 +2,11 @@
 border-radius:30px;
 line-height:40px;
 width: 157px;
-background-color: #CB7121;
-font-weight:510;
-color: white;
+background-color: #CB712100;
+font-weight:600;
+color: rgb(80, 68, 68);
 border: 3px solid  #1F212D;
+color: #1F212D;
 }
 .frst_button:hover{
     background-color:#1F212D;
@@ -31,5 +32,4 @@ border: 3px solid  #1F212D;
     filter: none;
     transform: scale(1.1);
 }
-
   
