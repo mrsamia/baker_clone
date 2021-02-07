@@ -32,4 +32,14 @@ color: #1F212D;
     filter: none;
     transform: scale(1.1);
 }
+.txt_color_4{
+    text-align:center;
+     color:#414C63;
+     max-width:90%;
+}
+.txt_color_5{
+    text-align:center;
+     max-width:90%;
+    color:#444450;
+}
   
