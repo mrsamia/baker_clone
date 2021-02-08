@@ -18,11 +18,20 @@ color: #1F212D;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
-    
+    background-size: cover;  
 }
 
+.all_part_mr_top{
+    margin-top: 100px;
+}
+.h2_txt_header{
+    color:#5B5D5C;
+    text-align:center;
+}
+.p_txt{
+    color: #747b83;
+    text-align:center;
+}
 .partner-img{
     filter: grayscale(100);
     transition: all .3s ease;
@@ -42,4 +51,23 @@ color: #1F212D;
      max-width:90%;
     color:#444450;
 }
-  
+  .image_decoration{
+    height:252px;
+    width:336px;
+    margin-top: 30px;
+  }
+  .image_decoration:hover{
+    transform:scaleY(1.1);
+    transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  .caard_image{
+      height:250px;
+      width: 336px;
+      margin-top:-16px;
+      margin-left: -16px;
+      
+  }
+  .fnt_awsm_decoration{
+      padding-right:20px;
+     
+  }
