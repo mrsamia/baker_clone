@@ -22,7 +22,7 @@ color: #1F212D;
 }
 
 .all_part_mr_top{
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .h2_txt_header{
     color:#5B5D5C;
@@ -59,6 +59,23 @@ color: #1F212D;
   .image_decoration:hover{
     transform:scaleY(1.1);
     transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  .image_overlay_1{
+    position: relative;
+}
+  .img_ovrly_1{
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    background-color: orange;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    font-size:20px;
+    color: white;
+  }
+  .image_overlay_1:hover .img_ovrly_1 {
+    opacity: 1;
   }
   .caard_image{
       height:250px;
