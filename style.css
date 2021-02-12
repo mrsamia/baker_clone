@@ -64,15 +64,26 @@ color: #1F212D;
     position: relative;
 }
   .img_ovrly_1{
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
     opacity: 0;
     background-color: orange;
-    height: 40px;
+    height: 60px;
     width: 100%;
-    display: flex;
+    transition: all ease-in-out 0.3s;
     font-size:20px;
+    color: white; */
+    opacity: 0;
+    position: absolute;
+    left: 0px;
+    right: 20px;
+    bottom: 0px;
+    transition: all ease-in-out 0.3s;
+    background: #ffc107;
+    background-color: rgb(255, 193, 7);
+    padding: 5px 20px;
     color: white;
+    
   }
   .image_overlay_1:hover .img_ovrly_1 {
     opacity: 1;
@@ -146,4 +157,16 @@ color: #1F212D;
 .portfolio-nav ul li a:hover, .portfolio-nav .active{
     background-color: orange;
     color: white;
+}
+.last_button{
+  border-radius:30px;
+line-height:40px;
+width: 157px;
+background-color: #FFCF4F;
+color: rgb(80, 68, 68);
+border: 3px solid  #FFCF4F;
+color: white;
+}
+.heiight{
+  height:45px;
 }
